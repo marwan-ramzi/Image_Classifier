@@ -4,4 +4,5 @@ Project code for Udacity's AI Programming with Python Nanodegree program. In thi
 
 #Developer: Marwan Ramzi
 
-I am developing the code for now.
+I am developing the code for now. I'll be using this dataset of 102 flower categories.
+Link for the dataset: https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html
