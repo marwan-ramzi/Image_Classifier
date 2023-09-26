@@ -171,14 +171,14 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     # Required arguments
-    parser.add_argument(dest='data_dir', help="Directory of the train and valid images")
+    parser.add_argument(dest='data_directory', help="Directory of the train and valid images")
     
     # Optional arguments
-    parser.add_argument('--save_dir', dest='save_dir', help="Directory of saved checkpoint.", default=r'C:\Users\Marwan\Desktop\aipnd-project-master')
-    parser.add_argument('--lr', dest='lr', default=0.001, type=float)
+    parser.add_argument('--save_directory', dest='save_directory', help="Directory of saved checkpoint.", default=r'C:\Users\Marwan\Desktop\aipnd-project-master')
+    parser.add_argument('--learning_rate ', dest='learning_rate ', default=0.001, type=float)
     parser.add_argument('--epochs', dest='epochs', default=3, type=int)
     parser.add_argument('--gpu', dest='gpu', help="This argument allows the user to train the model on the GPU via CUDA", action='store_true')
-    parser.add_argument('--model', dest='model', help="This argument allows the user to choose from 2 different pretrained models.", default="vgg16", type=str, choices=['vgg16', 'alexnet'])
+    parser.add_argument('--model_arch', dest='model_arch', help="This argument allows the user to choose from 2 different pretrained models.", default="vgg16", type=str, choices=['vgg16', 'alexnet'])
     parser.add_argument('--hidden_units', action="store", dest="hidden_units", type=int, default=2048)
     parser.add_argument('--dropout', action="store", type=float, default=0.25)
 

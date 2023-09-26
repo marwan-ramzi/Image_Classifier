@@ -109,8 +109,8 @@ if __name__ == '__main__':
     parser.add_argument(dest='model_filepath', help="Model file path of a saved checkpoint file")
 
     # optional arguments
-    parser.add_argument('--cat_to_names', dest='cat_to_names', help="JSON file path that maps flower labels", default='cat_to_name.json')
-    parser.add_argument('--topk', dest='topk', help="This argument allows the user to know the top k flower categories classification, default is k=5", default=5, type=int)
+    parser.add_argument('--category_names_json_filepath', dest='category_names_json_filepath', help="JSON file path that maps flower labels", default='cat_to_name.json')
+    parser.add_argument('--top_k', dest='top_k', help="This argument allows the user to know the top k flower categories classification, default is k=5", default=5, type=int)
     parser.add_argument('--gpu', dest='gpu', help="This argument allows the user to train the model on the GPU via CUDA", action='store_true')
 
     # Parse and print the results
