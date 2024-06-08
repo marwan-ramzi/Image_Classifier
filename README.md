@@ -11,14 +11,15 @@ AWS DeepRacer Student
 Get started by learning the fundamentals of ML:
 - Lesson 1: Introduction to machine learning.
 - Lesson 2: Introduction to reinforcement learning.
-Creating and training model for the AWS DeepRacer Student League Regular Season (Can be found in Pre_Season_Race).
+
+Creating and training model for the AWS DeepRacer Student League Regular Season.
 
 I finished 3 tasks:
 - Finishing the Lessons
 - Passing the test.
 - Training the model and modifying the reward function code to finish 3 laps of the track under 3 minutes.
 
-Learining about different model parameters to use them correctly in the reward function.
+Learining about different model parameters to use them correctly in the reward function (Can be found in Pre_Season_Race).
 I used PPO policy for the model.
 I managed to finish in 2 minutes and 40 seconds.
 
